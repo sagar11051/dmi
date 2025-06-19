@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DMI Hero UI
 
-## Getting Started
+Hi! This project is a modern, animated hero section built with Next.js and React. My goal was to create a visually engaging and clean landing experience that feels both professional and inviting.
 
-First, run the development server:
+## ✨ What You See
+
+When you open the app, you're greeted by a bold hero section:
+- At the top, there's a prominent DMI logo with a soft shadow, giving it a sense of depth.
+- Just below, three red dots act as a subtle indicator, adding a touch of motion and focus.
+- The main headline reads "Design Made Intelligent," with the word "Intelligent" highlighted in a vibrant red to draw attention.
+- A short sub-headline explains the value: "From brand kit to launch-ready content, websites & apps — powered by AI."
+- Two call-to-action buttons invite you to try the demo or join the waitlist, with smooth hover and tap animations for a tactile feel.
+
+## 🎨 The Animation
+
+The background isn't static—it features a smooth, animated red-to-white gradient that gently shifts back and forth. This is powered by Framer Motion, creating a dynamic, modern look without being distracting. The animation helps the hero section stand out and gives the page a sense of life and movement.
+
+## 🛠️ Tech Stack
+
+- **Next.js** for the app framework
+- **React** for building UI components
+- **Framer Motion** for all the animations, including the background and button effects
+- **Tailwind CSS** for utility-first styling (with some custom color classes for the DMI red)
+
+## 🚀 Getting Started
+
+To run the project locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I built this hero section to be clean, modern, and easy to extend. If you want to customize the look or animation, check out the `components/AnimatedRedGradientBg.tsx` and `components/HeroSection.tsx` files. Enjoy!
