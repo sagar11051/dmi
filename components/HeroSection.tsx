@@ -3,6 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import CTAButtons from './CTAButtons'
 import AnimatedRedGradientBg from './AnimatedRedGradientBg'
+import { easeInOut } from 'framer-motion'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -22,7 +23,7 @@ const itemVariants = {
     opacity: 1,
     transition: {
       duration: 0.6,
-      ease: "easeInOut"
+      ease: easeInOut
     }
   }
 }
