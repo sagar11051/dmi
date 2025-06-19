@@ -8,7 +8,7 @@ import { easeInOut } from 'framer-motion'
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
-    opacity: 1,
+    opacity: 1,   
     transition: {
       delayChildren: 0.3,
       staggerChildren: 0.2
